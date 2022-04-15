@@ -20,6 +20,8 @@
     padding-top: 1rem;
 }
 
-.navbarItem {
+.navbarItem Link {
     padding-right: 2rem;
+    color: #f5f5f5;
+    text-decoration: none;
 }

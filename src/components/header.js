@@ -13,10 +13,10 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <div className={navbarItemsDiv}>
-        <ul>
-          <Link className={'${whiteLink} ${navbarItem}'} to="/">About me</Link>
-          <Link className={'${whiteLink} ${navbarItem}'} to="/">My work</Link>
-          <Link className={'${whiteLink} ${navbarItem}'} to="/">Contact</Link>
+        <ul className={navbarItem}>
+          <Link to="/">About me</Link>
+          <Link to="/">My work</Link>
+          <Link to="/">Contact</Link>
         </ul>
       </div>
     </div>
