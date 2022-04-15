@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { navbarHeader, navbarMainDiv, whiteLink } from "../css/navbar.module.css"
+import { navbarHeader, navbarMainDiv, whiteLink, navbarItemsDiv, navbarItem } from "../css/navbar.module.css"
 
 const Header = ({ siteTitle }) => (
   <header className={navbarHeader}>
@@ -12,11 +12,11 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <div>
+      <div className={navbarItemsDiv}>
         <ul>
-          <Link className={whiteLink} to="/">About me</Link>
-          <Link className={whiteLink} to="/">My work</Link>
-          <Link className={whiteLink} to="/">Contact</Link>
+          <Link className={'${whiteLink} ${navbarItem}'} to="/">About me</Link>
+          <Link className={'${whiteLink} ${navbarItem}'} to="/">My work</Link>
+          <Link className={'${whiteLink} ${navbarItem}'} to="/">Contact</Link>
         </ul>
       </div>
     </div>
