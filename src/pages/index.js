@@ -10,8 +10,8 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div className={landingDiv}>
-      <h1>Hi, my name is Lucas Sevelin</h1>
-      <h2>I am an engineering student with a passion for automation and seamless integrations</h2>
+      <h1 class="white">Hi, my name is Lucas Sevelin</h1>
+      <h2 class="white">I am an engineering student with a passion for automation and seamless integrations</h2>
     </div>
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
