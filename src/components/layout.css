@@ -5,8 +5,14 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
+  height: 100vh;
+  width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
@@ -19,6 +25,12 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 article,
 aside,
 details,
@@ -596,6 +608,30 @@ pre tt:after {
   }
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
 .white {
   color: #f5f5f5;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  padding-top: 12rem;
+  padding-left: 5rem;
+  z-index: 100;
 }

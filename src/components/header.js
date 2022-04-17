@@ -14,9 +14,9 @@ const Header = ({ siteTitle }) => (
       </h1>
       <div className={navbarItemsDiv}>
         <ul classNme={navbarItemsUl}>
-          <Link className={navbarItem} to="/">About me</Link>
-          <Link className={navbarItem} to="/">My work</Link>
-          <Link className={navbarItem} to="/">Contact</Link>
+          <Link className={navbarItem} to="#aboutMeDiv">About me</Link>
+          <Link className={navbarItem} to="#myWorkDiv">My work</Link>
+          <Link className={navbarItem} to="#contactMeDiv">Contact</Link>
         </ul>
       </div>
     </div>
