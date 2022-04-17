@@ -12,7 +12,7 @@ h1 {
 .navbarMainDiv {
     margin: 0 auto;
     max-width: 960;
-    padding: 2rem 2rem 1rem 0;
+    padding: 2rem 0 1rem 0;
     overflow: hidden;
 }
 
@@ -20,16 +20,17 @@ h1 {
     color: #f5f5f5;
     text-decoration: none;
     padding: 0;
-    padding-left: 1.45rem;
+    padding-left: 5rem;
 }
 
 .navbarItemsDiv {
     margin: 0;
     padding-top: 1rem;
+    padding-left: 3.55rem;
 }
 
 .navbarItem {
-    padding-right: 2rem;
+    padding-right: 1.5rem;
     color: #f5f5f5;
     text-decoration: none;
 }
