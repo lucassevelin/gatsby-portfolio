@@ -14,9 +14,5 @@ html, body {
 }
 
 .aboutDiv {
-    z-index: 100;
     background: #508ca4;
-    width: 100%;
-    height: 80%;
-    transform: skew(45deg) scaleY(cos(45deg));
 }

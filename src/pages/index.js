@@ -15,7 +15,7 @@ const IndexPage = () => (
         <h2>I am an engineering student with a passion for automation and seamless integrations</h2>
       </div>
     </div>
-    <div className={aboutDiv} id="aboutMeDiv" class="section">
+    <div className={aboutDiv} id="aboutMeDiv" class="section white">
       <div class="content">
         <h2 className={sectionHeader}>About me</h2>
       </div>
